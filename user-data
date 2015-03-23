@@ -45,7 +45,7 @@ coreos:
       [Install]
       WantedBy=sockets.target
   - name: ntpdate.service
-      command: start
+    command: start
   - name: timedate-ntp-synchronization.service
     command: start
     content: |
